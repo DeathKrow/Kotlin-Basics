@@ -1,6 +1,6 @@
 package buildAbox
 
-class buildAbox(open var length:Int = 10,open var width: Int = 10,open var height: Int = 10) {
+open class buildAbox(open var length:Int = 10,open var width: Int = 10,open var height: Int = 10) {
     init{
         println("Generating a Box...")
     }
